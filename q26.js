@@ -6,3 +6,25 @@
 • Write one version of this program that runs the if block and another that runs the else block.
 
 */
+
+var alien_color= "red";
+
+if(alien_color == "green")
+{
+console.log("You earned five points")
+}
+
+else{
+console.log("You earned ten points")
+}
+
+
+
+
+
+
+
+
+
+
+

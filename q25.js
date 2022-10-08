@@ -3,6 +3,41 @@
 • Write one version of this program that passes the if test and another that fails. (The version that fails will have no output.)
  */
 
+//failing test
+var alien_color= "red";
+
+if(alien_color == "green")
+{
+console.log("You earned five points")
+}
+
+else{
+
+}
+
+//passing test
+var alien_color= "green";
+
+if(alien_color == "green")
+{
+console.log("You earned five points")
+}
+
+else{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

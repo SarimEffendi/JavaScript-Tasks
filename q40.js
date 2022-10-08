@@ -6,3 +6,26 @@
  *  If the calling line includes a value for the number of tracks, add that value to the album’s Object.
  *  Make at least one new function call that includes the number of tracks on an album.
  */
+
+function make_album(artist_name,album_title,num_of_tracks=0){
+        var  album = {
+            artist_name: artist_name,
+            album_title:album_title,
+            num_of_tracks:num_of_tracks,
+        }
+        return album;
+}
+var album1= make_album("The weeknd","Beauty behind madness");
+var album2= make_album("The weeknd","Starboy");
+var album3= make_album("The weeknd","Dawn Fm",16);
+
+
+console.log('Album1:',album1);
+console.log('Album2:',album2);
+console.log('Album3:',album3);
+
+
+
+
+
+

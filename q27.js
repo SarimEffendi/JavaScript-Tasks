@@ -7,3 +7,26 @@
 
 • Write three versions of this program, making sure each message is printed for the appropriate color alien.
  */
+
+var alien_color= "red";
+
+if(alien_color == "green")
+{
+console.log("You earned five points")
+}
+else if(alien_color == "yellow")
+{
+console.log("You earned ten points")
+}
+else if(alien_color == "red")
+{
+console.log("You earned fifteen points")
+}
+else{
+console.log("Wrong color")
+}
+
+
+
+
+

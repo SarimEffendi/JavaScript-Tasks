@@ -4,3 +4,26 @@
 
 Call your function with at least three city-country pairs, and print the value that’s returned.
  */
+function city_country(city,country){
+    return (`${city},${country}`);
+}
+console.log(city_country("karachi","pakistan"));
+console.log(city_country("dubai","UAE"));
+console.log(city_country("melbourne","australia"));
+console.log(city_country("toronto","canada"));
+console.log(city_country("washington","USA"));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
