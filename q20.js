@@ -3,19 +3,12 @@
  *  list containing these items.
  */
 
-const cities =["Karachi","Kitchener","Lahore","Islamabad","Hyderabad"];
-const countries=["Pakistan","Canada","Usa"];
-const subjects=["MetaVerse","JavaScript","TypeScript"];
-const cars=["Civic","Revo","Corolla"];
-const bikes=["Yamaha","Suzuki","Bmw"];
+const cities = ["Karachi", "Kitchener", "Lahore", "Islamabad", "Hyderabad"];
+const countries = ["Pakistan", "Canada", "Usa"];
+const subjects = ["MetaVerse", "JavaScript", "TypeScript"];
+const cars = ["Civic", "Revo", "Corolla"];
+const bikes = ["Yamaha", "Suzuki", "Bmw"];
 var list = [];
-list = list.concat(cities,countries,subjects,cars,bikes);
+//concat method is used to concate arrays.
+list = list.concat(cities, countries, subjects, cars, bikes);
 console.log(list);
-
-
-
-
-
-
-
-

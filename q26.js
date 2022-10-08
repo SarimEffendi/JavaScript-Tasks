@@ -7,24 +7,12 @@
 
 */
 
-var alien_color= "red";
+var alien_color = "red";
 
-if(alien_color == "green")
-{
-console.log("You earned five points")
+if (alien_color == "green") {
+  console.log("You earned five points");
 }
-
-else{
-console.log("You earned ten points")
+//conditional statement else if the if statements fails then the else executes
+else {
+  console.log("You earned ten points");
 }
-
-
-
-
-
-
-
-
-
-
-

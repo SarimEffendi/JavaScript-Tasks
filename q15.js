@@ -8,25 +8,34 @@
 
  */
 
-const invitations = ["Sir Zia","Sir Daniyal","Sir Qasim","Miss Hira"];
+const invitations = ["Sir Zia", "Sir Daniyal", "Sir Qasim", "Miss Hira"];
 
-console.log(`Greetings ${invitations[0]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[1]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[2]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[3]} I would like to invite you to dine with me.`);
+console.log(
+  `Greetings ${invitations[0]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[1]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[2]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[3]} I would like to invite you to dine with me.`
+);
 
 console.log(`${invitations[3]} cant make it to dinner`);
 
-invitations[3]="Sir zeeshan";
+invitations[3] = "Sir zeeshan";
 
-console.log(`Greetings ${invitations[0]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[1]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[2]} I would like to invite you to dine with me.`);
-console.log(`Greetings ${invitations[3]} I would like to invite you to dine with me.`);
-
-
-
-
-
-
-
+console.log(
+  `Greetings ${invitations[0]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[1]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[2]} I would like to invite you to dine with me.`
+);
+console.log(
+  `Greetings ${invitations[3]} I would like to invite you to dine with me.`
+);

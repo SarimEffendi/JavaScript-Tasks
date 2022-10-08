@@ -4,23 +4,21 @@
 • Add a line at the end of your program, outside the for loop, that states how much you like pizza. The output should consist of three or more lines about the kinds of pizza you like and then an additional sentence, such as I really love pizza!
  * 
  */
-
-const pizzaFlavors=["Afghani feast","Chicken Tikka","Pepperoni Pizza","Cheesy melt"];
-for(var i =0; i <pizzaFlavors.length;i++){
-    console.log(pizzaFlavors[i]);
+//array
+const pizzaFlavors = [
+  "Afghani feast",
+  "Chicken Tikka",
+  "Pepperoni Pizza",
+  "Cheesy melt",
+];
+//loop to print the array elements
+for (var i = 0; i < pizzaFlavors.length; i++) {
+  console.log(pizzaFlavors[i]);
 }
-
-for(var i =0; i <pizzaFlavors.length;i++){
-    console.log(`I like ${pizzaFlavors[i]} Pizza`);
+//printing array elements with a message
+for (var i = 0; i < pizzaFlavors.length; i++) {
+  console.log(`I like ${pizzaFlavors[i]} Pizza`);
 }
-console.log('"Unless you are a pizza, the answer is yes, I can live without you."');
-
-
-
-
-
-
-
-
-
-
+console.log(
+  '"Unless you are a pizza, the answer is yes, I can live without you."'
+);

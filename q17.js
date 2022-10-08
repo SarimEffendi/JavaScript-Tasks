@@ -61,21 +61,16 @@ console.log(
 
 console.log("\n");
 for (var i = 6; i > 1; i--) {
-//pop method removes the last element from an arrray
+  //pop method removes the last element from an arrray
   invitations.pop();
   console.log("Sorry You are not invited as our table is full");
 }
 console.log("\n");
-console.log(
-  `Greetings ${invitations[0]} You are still invited for dinner.`
-);
-console.log(
-  `Greetings ${invitations[1]} You are still invited for dinner.\n`
-);
+console.log(`Greetings ${invitations[0]} You are still invited for dinner.`);
+console.log(`Greetings ${invitations[1]} You are still invited for dinner.\n`);
 //popped the last two items of array
 invitations.pop();
 invitations.pop();
 
 console.log(invitations);
 console.log("list is empty");
-

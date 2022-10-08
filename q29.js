@@ -4,36 +4,22 @@
 • Write five if statements. Each should check whether a certain kind of fruit is in your array. If the fruit is in your array, the if block should print a statement, such as You really like bananas!
  */
 
-var favourite_fruits=["mango","banana","strawberry"]
-
-for(var i=0; i<favourite_fruits.length; i++)
-{
-if("apple" == favourite_fruits[i]){
-console.log("You really like! " + favourite_fruits[i])
+var favourite_fruits = ["mango", "banana", "strawberry"];
+//for loop to print the fruits array after going through if tests
+for (var i = 0; i < favourite_fruits.length; i++) {
+  if ("apple" == favourite_fruits[i]) {
+    console.log("You really like! " + favourite_fruits[i]);
+  }
+  if ("mango" == favourite_fruits[i]) {
+    console.log("You really like! " + favourite_fruits[i]);
+  }
+  if ("cherry" == favourite_fruits[i]) {
+    console.log("You really like! " + favourite_fruits[i]);
+  }
+  if ("strawberry" == favourite_fruits[i]) {
+    console.log("You really like! " + favourite_fruits[i]);
+  }
+  if ("banana" == favourite_fruits[i]) {
+    console.log("You really like! " + favourite_fruits[i]);
+  }
 }
-if("mango" == favourite_fruits[i]){
-console.log("You really like! " + favourite_fruits[i])
-}
-if ("cherry" == favourite_fruits[i]) {
-console.log("You really like! " + favourite_fruits[i])
-}
-if ("strawberry" == favourite_fruits[i]) {
-console.log("You really like! " + favourite_fruits[i])
-}
-if ("banana" == favourite_fruits[i]) {
-console.log("You really like! " + favourite_fruits[i])
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-

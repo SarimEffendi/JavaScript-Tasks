@@ -3,14 +3,8 @@
  * personalized with the person’s name.
  */
 
-const names = ["Muhammad Sarim","Ali Asar","Sheikh Moosa","Huzaifa Ali"];
+const names = ["Muhammad Sarim", "Ali Asar", "Sheikh Moosa", "Huzaifa Ali"];
 console.log(`Hello! ${names[0]} how are you today?`);
 console.log(`Hello! ${names[1]} how are you today?`);
 console.log(`Hello! ${names[2]} how are you today?`);
 console.log(`Hello! ${names[3]} how are you today?`);
-
-
-
-
-
-
